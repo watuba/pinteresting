@@ -10,7 +10,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
 
-group :development, :test do //only need to use sqlite3 in dev and test
+group :development, :test do 
 	gem 'sqlite3'
 end
 
