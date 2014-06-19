@@ -85,4 +85,5 @@ Rails.application.configure do
   # Note to set this to your actual host
   config.action_mailer.default_url_options = { host: 'bhaunomr.herokuapp.com' }
 
+  Paperclip.options.merge!(:command_path => "/usr/bin")
 end
